@@ -1,0 +1,178 @@
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: blueviolet;
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+.hero h2 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
+
+.mb-3 {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
+.btn {
+  background-color: blueviolet;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
+  transition: 0.3s ease-in;
+}
+
+.btn-branding-outline {
+  background-color: transparent;
+  border-color: blueviolet;
+  color: blueviolet;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.btn:hover {
+  border-color: mediumslateblue;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 900px) {
+  .proyect-description {
+    padding: 0px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+}
+p {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+i {
+  color: mediumslateblue;
+  margin: 20px;
+  padding: 25px;
+}
+
+.hero {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-family: "Playfair Display", serif;
+}
+
+.content h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0px 0px;
+  font-weight: bold;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
+  font-family: var(--default-font-family);
+}
+
+.content {
+  margin: 30px;
+}
+
+.logo {
+  width: 150px;
+  height: 41.81743621826172px;
+  top: 40px;
+  left: 144px;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  text-decoration: bold;
+}
+
+footer .email-link:hover {
+  color: #272142;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  cursor: pointer;
+}
